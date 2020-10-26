@@ -333,7 +333,11 @@ bottom: -28px;
 .header__nav-background{
   display: none;
 }
-
+@media (max-width: 1700px) {
+  .seasonal-collection{
+    flex-direction: column;
+  }
+}
 @media (max-width: 1250px) {
   .container{
     max-width: 900px;
@@ -434,9 +438,6 @@ bottom: -28px;
   }
   video{
     height: 488px;
-  }
-  .seasonal-collection{
-    flex-direction: column;
   }
   .inner+.inner{
     margin-top: 31px;

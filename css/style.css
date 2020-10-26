@@ -458,6 +458,11 @@ video {
   display: none;
 }
 
+@media (max-width: 1700px) {
+  .seasonal-collection {
+    flex-direction: column;
+  }
+}
 @media (max-width: 1250px) {
   .container {
     max-width: 900px;
@@ -573,10 +578,6 @@ video {
 
   video {
     height: 488px;
-  }
-
-  .seasonal-collection {
-    flex-direction: column;
   }
 
   .inner + .inner {
