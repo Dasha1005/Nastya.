@@ -592,6 +592,13 @@ video {
     justify-content: center;
   }
 }
+@media (max-width: 1700px) {
+  .inner {
+    height: 350px;
+    width: 450px;
+    padding: 80px 0 0 45px;
+  }
+}
 @media (max-width: 1050px) {
   .container {
     max-width: 800px;
@@ -679,12 +686,6 @@ video {
   .slide-2__background {
     background-position: 70%;
     height: 650px;
-  }
-
-  .inner {
-    height: 350px;
-    width: 450px;
-    padding: 80px 0 0 45px;
   }
 
   .trending-products__title {

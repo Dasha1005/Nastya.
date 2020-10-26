@@ -449,6 +449,13 @@ bottom: -28px;
     justify-content: center;
   }
 }
+@media (max-width: 1700px) {
+  .inner{
+    height: 350px;
+    width: 450px;
+    padding: 80px 0 0 45px;
+  }
+}
 @media (max-width: 1050px) {
   .container{
     max-width: 800px;
@@ -521,11 +528,7 @@ bottom: -28px;
     background-position: 70%;
     height: 650px;
   }
-  .inner{
-    height: 350px;
-    width: 450px;
-    padding: 80px 0 0 45px;
-  }
+
   .trending-products__title{
     font-size: 25px;
   }
