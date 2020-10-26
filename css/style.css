@@ -462,6 +462,14 @@ video {
   .seasonal-collection {
     flex-direction: column;
   }
+
+  .inner + .inner {
+    margin-top: 31px;
+  }
+
+  .inner {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1250px) {
   .container {
@@ -578,14 +586,6 @@ video {
 
   video {
     height: 488px;
-  }
-
-  .inner + .inner {
-    margin-top: 31px;
-  }
-
-  .inner {
-    margin: 0 auto;
   }
 
   .box {
