@@ -1,1 +1,1 @@
-Github Pages: https://dasha1005.github.io/Nastya./
+https://dasha1005.github.io/Nastya./
