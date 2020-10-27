@@ -71,7 +71,8 @@ $(function () {
             '<img src="images/arrow-l.png" alt="">',
         nextArrow: '<button type="button" class="slick-btn slick-next">' +
             '<img src="images/arrow-r.png" alt="">',
-        //autoplay: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
         dots: true,
         adaptiveHeight: true,
         responsive:[
@@ -87,3 +88,14 @@ $(function () {
                 }}]
             })
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+        const hideElement = document.querySelector('.sale') ;
+        localStorage.setItem('display', 'none');
+        localStorage.getItem('display');
+        hideElement.style.display='none';
+    });
+
+

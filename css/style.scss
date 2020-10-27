@@ -35,6 +35,9 @@ font-family: 'Roboto', sans-serif;
 }
 .header{
   background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1111;
 }
 .nav__menu-bar{
   display: flex;
@@ -52,6 +55,45 @@ font-family: 'Roboto', sans-serif;
   font-family: 'Poppins', sans-serif;
   margin-left: 40px;
   position: relative;
+}
+.menu__sale{
+  background-image: url(../images/header__sale.png);
+  right: -18px;
+  padding-left: 2px;
+}
+.menu__hot{
+  background-image: url(../images/header__hot.png);
+  right: -20px;
+  padding-left: 3px;
+}
+.shopping-cart{
+  position: relative;
+}
+.number-of-purchases{
+  background-image: url(../images/number__purchases.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: -5px;
+  right: -10px;
+  @include font-size(9px,400,normal,#f4f4f4,0.23px);
+  font-family: 'Poppins', sans-serif;
+  padding-left: 4px;
+}
+.menu__collection,
+.menu__buy{
+  position: relative;
+}
+.menu__sale,
+.menu__hot{
+  top: -10px;
+  position: absolute;
+  width: 28px;
+  height: 11px;
+  background-repeat: no-repeat;
+  @include font-size(9px,400,normal,#fff,0.23px);
+  font-family: 'Poppins', sans-serif;
 }
 .sub-menu{
   display: none;
@@ -268,6 +310,68 @@ bottom: -28px;
      width: 271px;
      margin-bottom: 100px;
      position: relative;
+}
+
+.aside__onclick{
+  background-color: #fff;
+  width: 386px;
+  height: 643px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  padding: 10px 10px 0 10px;
+  display: none;
+}
+.aside:hover >.aside__onclick{
+  display: block;
+}
+.aside__onclick .on-sale,
+.aside__onclick .new{
+  margin: 10px 0 0 10px;
+}
+.small-size-1,
+.small-size-2,
+.small-size-3{
+  position: absolute;
+  right: 10px;
+  &:hover{
+    border: 1px solid #000;
+  }
+}
+.small-size-1{
+  top: 10px;
+}
+.small-size-2{
+  top: 156px;
+}
+.small-size-3{
+  top: 302px;
+}
+.color{
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
+}
+.color li:hover{
+  transform: scale(1.2);
+}
+.color li+li{
+  margin-left: 9px;
+}
+.aside-1__onclick__button{
+  width: 366px;
+  height: 60px;
+  box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.18);
+  background-color: #009999;
+  border: none;
+  &:hover{
+    background-color: #686a8c;
+
+  }
+}
+.aside-1__onclick__button span{
+  @include font-size(18px,400,normal,#fff,0.45);
+  font-family: 'Poppins', sans-serif;
 }
 .product-name{
   @include font-size(14px,400,normal,#161616,0);

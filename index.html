@@ -55,7 +55,8 @@
                             <li><a href="#">Autumn must-haves</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="menu__collection">
+                        <span class="menu__sale">Sale</span>
                         <a href="#">Collection</a>
                         <ul class="sub-menu collection">
                             <li><a href="#">Wedding</a></li>
@@ -76,7 +77,8 @@
                                 <li><a href="#">Jeans</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="menu__buy">
+                        <span class="menu__hot">Hot</span>
                         <a href="#">Buy</a>
 
                     </li>
@@ -85,8 +87,10 @@
                     <li class="fl-outicons-heart373"></li>
                     <li class="fl-outicons-gear40"></li>
                     <li class="fl-outicons-magnifying-glass34"></li>
-                    <li class="fl-outicons-user189"></li>
-                    <li class="fl-outicons-shopping-cart13"></li>
+                    <li class="fl-outicons-user189 "></li>
+                    <li class="fl-outicons-shopping-cart13 shopping-cart">
+                        <span class="number-of-purchases">1</span>
+                    </li>
                 </ul>
             </nav>
             <div id="site-header" class="header__nav-background">
@@ -204,7 +208,7 @@
             </div>
         </div>
         <div class="slide-3">
-            <video width="100%" height="754px" controls>
+            <video class="video" autoplay loop width="100%" height="754px" controls>
                 <source src="images/video/test_1.mp4" type="video/mp4">
             </video>
         </div>
@@ -256,7 +260,7 @@
                 </span>
             </h3>
             <div class="box">
-                <div class="aside-1">
+                <div class="aside-1 aside">
                     <img src="images/aside-1.png" alt="">
                     <p class="on-sale">On Sale</p>
                     <p class="new">New</p>
@@ -274,8 +278,39 @@
                         <li><img src="images/trend-product__bad-rating.png" alt=""></li>
                         <li class="reviews">(5 customers reviews )</li>
                     </ul>
+                    <div class="aside-1__onclick aside__onclick">
+                        <img src="images/aside-1.png" alt="">
+                        <img class="small-size-1" src="images/trending-product__small-sz1.png" alt="">
+                        <img class="small-size-2" src="images/trending-product__small-sz2.png" alt="">
+                        <img class="small-size-3" src="images/trending-product__small-sz3.png" alt="">
+                        <p class="on-sale">On Sale</p>
+                        <p class="new">New</p>
+                        <h3 class="product-name">
+                            "Hermes" Love The Music Crochet
+                        </h3>
+                        <p class="price"> € 90.32
+                            <span class="old__price">€ 112.90</span>
+                        </p>
+                        <ul class="raiting">
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__bad-rating.png" alt=""></li>
+                            <li class="reviews">(5 customers reviews )</li>
+                        </ul>
+                        <ul class="color">
+                            <li><img src="images/color-1.png" alt=""></li>
+                            <li><img src="images/color-2.png" alt=""></li>
+                            <li><img src="images/color-3.png" alt=""></li>
+                            <li><img src="images/color-4.png" alt=""></li>
+                        </ul>
+                        <button class="aside-1__onclick__button">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="aside-2">
+                <div class="aside-2 aside">
                     <img src="images/aside-2.png" alt="">
                     <p class="new trending-products__new">New</p>
                     <h3 class="product-name">
@@ -290,9 +325,39 @@
                         <li><img src="images/trend-product__bad-rating.png" alt=""></li>
                         <li class="reviews">(10 customers reviews )</li>
                     </ul>
-
+                    <div class="aside-2__onclick aside__onclick">
+                        <img src="images/aside-2.png" alt="">
+                        <img class="small-size-1" src="images/trending-product__small-sz1.png" alt="">
+                        <img class="small-size-2" src="images/trending-product__small-sz2.png" alt="">
+                        <img class="small-size-3" src="images/trending-product__small-sz3.png" alt="">
+                        <p class="on-sale">On Sale</p>
+                        <p class="new">New</p>
+                        <h3 class="product-name">
+                            "Hermes" Love The Music Crochet
+                        </h3>
+                        <p class="price"> € 90.32
+                            <span class="old__price">€ 112.90</span>
+                        </p>
+                        <ul class="raiting">
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__bad-rating.png" alt=""></li>
+                            <li class="reviews">(5 customers reviews )</li>
+                        </ul>
+                        <ul class="color">
+                            <li><img src="images/color-1.png" alt=""></li>
+                            <li><img src="images/color-2.png" alt=""></li>
+                            <li><img src="images/color-3.png" alt=""></li>
+                            <li><img src="images/color-4.png" alt=""></li>
+                        </ul>
+                        <button class="aside-1__onclick__button">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="aside-3">
+                <div class="aside-3 aside">
                     <img src="images/aside-3.png" alt="">
                     <p class="new trending-products__new">New</p>
                     <h3 class="product-name">
@@ -307,9 +372,39 @@
                         <li><img src="images/trend-product__bad-rating.png" alt=""></li>
                         <li class="reviews">(1 customers reviews )</li>
                     </ul>
-
+                    <div class="aside-3__onclick aside__onclick">
+                        <img src="images/aside-3.png" alt="">
+                        <img class="small-size-1" src="images/trending-product__small-sz1.png" alt="">
+                        <img class="small-size-2" src="images/trending-product__small-sz2.png" alt="">
+                        <img class="small-size-3" src="images/trending-product__small-sz3.png" alt="">
+                        <p class="on-sale">On Sale</p>
+                        <p class="new">New</p>
+                        <h3 class="product-name">
+                            "Hermes" Love The Music Crochet
+                        </h3>
+                        <p class="price"> € 90.32
+                            <span class="old__price">€ 112.90</span>
+                        </p>
+                        <ul class="raiting">
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__bad-rating.png" alt=""></li>
+                            <li class="reviews">(5 customers reviews )</li>
+                        </ul>
+                        <ul class="color">
+                            <li><img src="images/color-1.png" alt=""></li>
+                            <li><img src="images/color-2.png" alt=""></li>
+                            <li><img src="images/color-3.png" alt=""></li>
+                            <li><img src="images/color-4.png" alt=""></li>
+                        </ul>
+                        <button class="aside-1__onclick__button">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="aside-4">
+                <div class="aside-4 aside">
                     <img src="images/aside-4.png" alt="">
                     <p class="new trending-products__new">New</p>
                     <h3 class="product-name">
@@ -324,9 +419,39 @@
                         <li><img src="images/trend-product__bad-rating.png" alt=""></li>
                         <li class="reviews">(5 customers reviews )</li>
                     </ul>
-
+                    <div class="aside-4__onclick aside__onclick">
+                        <img src="images/aside-4.png" alt="">
+                        <img class="small-size-1" src="images/trending-product__small-sz1.png" alt="">
+                        <img class="small-size-2" src="images/trending-product__small-sz2.png" alt="">
+                        <img class="small-size-3" src="images/trending-product__small-sz3.png" alt="">
+                        <p class="on-sale">On Sale</p>
+                        <p class="new">New</p>
+                        <h3 class="product-name">
+                            "Hermes" Love The Music Crochet
+                        </h3>
+                        <p class="price"> € 90.32
+                            <span class="old__price">€ 112.90</span>
+                        </p>
+                        <ul class="raiting">
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__bad-rating.png" alt=""></li>
+                            <li class="reviews">(5 customers reviews )</li>
+                        </ul>
+                        <ul class="color">
+                            <li><img src="images/color-1.png" alt=""></li>
+                            <li><img src="images/color-2.png" alt=""></li>
+                            <li><img src="images/color-3.png" alt=""></li>
+                            <li><img src="images/color-4.png" alt=""></li>
+                        </ul>
+                        <button class="aside-1__onclick__button">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="aside-5">
+                <div class="aside-5 aside">
                     <img src="images/aside-5.png" alt="">
                     <p class="on-sale">On Sale</p>
                     <p class="new">New</p>
@@ -344,8 +469,39 @@
                         <li><img src="images/trend-product__bad-rating.png" alt=""></li>
                         <li class="reviews">(2 customers reviews )</li>
                     </ul>
+                    <div class="aside-5__onclick aside__onclick">
+                        <img src="images/aside-5.png" alt="">
+                        <img class="small-size-1" src="images/trending-product__small-sz1.png" alt="">
+                        <img class="small-size-2" src="images/trending-product__small-sz2.png" alt="">
+                        <img class="small-size-3" src="images/trending-product__small-sz3.png" alt="">
+                        <p class="on-sale">On Sale</p>
+                        <p class="new">New</p>
+                        <h3 class="product-name">
+                            "Hermes" Love The Music Crochet
+                        </h3>
+                        <p class="price"> € 90.32
+                            <span class="old__price">€ 112.90</span>
+                        </p>
+                        <ul class="raiting">
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__bad-rating.png" alt=""></li>
+                            <li class="reviews">(5 customers reviews )</li>
+                        </ul>
+                        <ul class="color">
+                            <li><img src="images/color-1.png" alt=""></li>
+                            <li><img src="images/color-2.png" alt=""></li>
+                            <li><img src="images/color-3.png" alt=""></li>
+                            <li><img src="images/color-4.png" alt=""></li>
+                        </ul>
+                        <button class="aside-1__onclick__button">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="aside-6">
+                <div class="aside-6 aside">
                     <img src="images/aside-6.png" alt="">
                     <p class="on-sale">On Sale</p>
                     <p class="new">New</p>
@@ -363,9 +519,39 @@
                         <li><img src="images/trend-product__bad-rating.png" alt=""></li>
                         <li class="reviews">(5 customers reviews )</li>
                     </ul>
-
+                    <div class="aside-6__onclick aside__onclick">
+                        <img src="images/aside-6.png" alt="">
+                        <img class="small-size-1" src="images/trending-product__small-sz1.png" alt="">
+                        <img class="small-size-2" src="images/trending-product__small-sz2.png" alt="">
+                        <img class="small-size-3" src="images/trending-product__small-sz3.png" alt="">
+                        <p class="on-sale">On Sale</p>
+                        <p class="new">New</p>
+                        <h3 class="product-name">
+                            "Hermes" Love The Music Crochet
+                        </h3>
+                        <p class="price"> € 90.32
+                            <span class="old__price">€ 112.90</span>
+                        </p>
+                        <ul class="raiting">
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__bad-rating.png" alt=""></li>
+                            <li class="reviews">(5 customers reviews )</li>
+                        </ul>
+                        <ul class="color">
+                            <li><img src="images/color-1.png" alt=""></li>
+                            <li><img src="images/color-2.png" alt=""></li>
+                            <li><img src="images/color-3.png" alt=""></li>
+                            <li><img src="images/color-4.png" alt=""></li>
+                        </ul>
+                        <button class="aside-1__onclick__button">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="aside-7">
+                <div class="aside-7 aside">
                     <img src="images/aside-7.png" alt="">
                     <p class="on-sale">On Sale</p>
                     <p class="new">New</p>
@@ -383,8 +569,39 @@
                         <li><img src="images/trend-product__bad-rating.png" alt=""></li>
                         <li class="reviews">(8 customers reviews )</li>
                     </ul>
+                    <div class="aside-7__onclick aside__onclick">
+                        <img src="images/aside-7.png" alt="">
+                        <img class="small-size-1" src="images/trending-product__small-sz1.png" alt="">
+                        <img class="small-size-2" src="images/trending-product__small-sz2.png" alt="">
+                        <img class="small-size-3" src="images/trending-product__small-sz3.png" alt="">
+                        <p class="on-sale">On Sale</p>
+                        <p class="new">New</p>
+                        <h3 class="product-name">
+                            "Hermes" Love The Music Crochet
+                        </h3>
+                        <p class="price"> € 90.32
+                            <span class="old__price">€ 112.90</span>
+                        </p>
+                        <ul class="raiting">
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__bad-rating.png" alt=""></li>
+                            <li class="reviews">(5 customers reviews )</li>
+                        </ul>
+                        <ul class="color">
+                            <li><img src="images/color-1.png" alt=""></li>
+                            <li><img src="images/color-2.png" alt=""></li>
+                            <li><img src="images/color-3.png" alt=""></li>
+                            <li><img src="images/color-4.png" alt=""></li>
+                        </ul>
+                        <button class="aside-1__onclick__button">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="aside-8">
+                <div class="aside-8 aside">
                     <img src="images/aside-8.png" alt="">
                     <p class="on-sale">On Sale</p>
                     <p class="new">New</p>
@@ -403,6 +620,37 @@
                         <li><img src="images/trend-product__bad-rating.png" alt=""></li>
                         <li class="reviews">(1 customers reviews )</li>
                     </ul>
+                    <div class="aside-8__onclick aside__onclick">
+                        <img src="images/aside-8.png" alt="">
+                        <img class="small-size-1" src="images/trending-product__small-sz1.png" alt="">
+                        <img class="small-size-2" src="images/trending-product__small-sz2.png" alt="">
+                        <img class="small-size-3" src="images/trending-product__small-sz3.png" alt="">
+                        <p class="on-sale">On Sale</p>
+                        <p class="new">New</p>
+                        <h3 class="product-name">
+                            "Hermes" Love The Music Crochet
+                        </h3>
+                        <p class="price"> € 90.32
+                            <span class="old__price">€ 112.90</span>
+                        </p>
+                        <ul class="raiting">
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__rating.png" alt=""></li>
+                            <li><img src="images/trend-product__bad-rating.png" alt=""></li>
+                            <li class="reviews">(5 customers reviews )</li>
+                        </ul>
+                        <ul class="color">
+                            <li><img src="images/color-1.png" alt=""></li>
+                            <li><img src="images/color-2.png" alt=""></li>
+                            <li><img src="images/color-3.png" alt=""></li>
+                            <li><img src="images/color-4.png" alt=""></li>
+                        </ul>
+                        <button class="aside-1__onclick__button">
+                            <span>Add to cart</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
