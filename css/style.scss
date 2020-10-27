@@ -366,7 +366,6 @@ bottom: -28px;
   border: none;
   &:hover{
     background-color: #686a8c;
-
   }
 }
 .aside-1__onclick__button span{
@@ -495,7 +494,7 @@ bottom: -28px;
 
   #site-header {
     position: fixed;
-    top: 50px;
+    top: 25px;
     right: 50px;
     max-width: 100%;
     z-index: 200;
@@ -692,5 +691,19 @@ bottom: -28px;
   .slide-1__background,
   .slide-2__background{
     height: 500px;
+  }
+  .aside__onclick{
+    background-color: #fff;
+    width: 300px;
+    height: 643px;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    padding: 10px 10px 0 10px;
+    display: none;
+  }
+  .aside-1__onclick__button{
+    width: 250px;
+    height: 60px;
   }
 }
