@@ -436,6 +436,48 @@ bottom: -28px;
 .header__nav-background{
   display: none;
 }
+.countdownHolder{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  margin-left: 28px;
+  font-family: 'Poppins', sans-serif;
+  @include font-size(16px,400,21px,#757373,0.3px);
+}
+.countdownHolder p+p{
+  margin-left: 5px;
+}
+.days,
+.hours,
+.minutes,
+.seconds{
+  background-color: rgba(255, 255, 255, 0.71);
+  height: 55px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+  .countDays,
+  .countHours,
+  .countMinutes,
+  .countSeconds{
+    position: absolute;
+    top: 5px;
+  }
+.countDays{
+  left: 13px;
+}
+.countHours{
+  left: 68px;
+}
+.countMinutes{
+  right: 68px;
+}
+.countSeconds{
+  right: 13px;
+}
 @media (max-width: 1700px) {
   .seasonal-collection{
     flex-direction: column;

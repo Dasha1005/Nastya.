@@ -86,9 +86,8 @@ $(function () {
                     dots: false,
                     arrows: false
                 }}]
-            })
+            });
 });
-
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -97,5 +96,4 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.getItem('display');
         hideElement.style.display='none';
     });
-
 
